@@ -74,6 +74,7 @@ equal.addEventListener('click',()=>{
     }
     else if(eval(result)===2803){
         monitor.innerText = 'Chị Ly xinh!!!';
+        flag = true;
         
     else{
         monitor.innerText = eval(result);
