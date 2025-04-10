@@ -72,6 +72,9 @@ equal.addEventListener('click',()=>{
         monitor.innerText = '-' + ex + Math.abs(eval(result));
         flag = true;
     }
+    else if(eval(result)===2803){
+        monitor.innerText = 'Chị Ly xinh!!!';
+        
     else{
         monitor.innerText = eval(result);
         flag = true;
